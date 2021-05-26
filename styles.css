@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root{
+    --first-color:rgba(141, 138, 230,0.5);
+    --second-color:rgba(247, 245, 250,1);
+    --third-color:rgba(138, 167, 230,1);
+    --fourth-color:rgba(103, 91, 138,1);
+    --fifty-color:rgba(103, 91, 138,0.5);
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color:var(--first-color);
+    color:var(--second-color);
+}
+
+#container{
+    height: 520px;
+    width: 368px;
+    margin: 100px auto;
+    background-color:var(--fifty-color);
+    border-radius:20px;
+
+}
+
+#title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fourth-color);
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+#button{
+    margin-top:30px;
+    margin-left: 70px;
+    margin-right:70px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    font-family: Lato, sans-serif;
+    background-color:var(--first-color);
+    color:var(--second-color);
+    border-color: var(--first-color);
+    font-size:20px;
+}
+
+#button:hover{
+    background-color:var(--fourth-color);
+    transition: 0.2s;
+}
+
+#content{
+    padding: 15px;
+    
+}
+
+#totalTip{
+    font-size:20px;
+    margin-top: 5px;
+    text-align: center;
+}
